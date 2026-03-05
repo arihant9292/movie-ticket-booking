@@ -11,7 +11,8 @@ movies = {
     "Pathaan": 120,
     "Jawan": 130,
     "Inception": 140,
-    "Interstellar": 160
+    "Interstellar": 160,
+    "conjuring": 350
 }
 
 # Select Movie
@@ -44,4 +45,5 @@ if st.button("Book Ticket"):
         st.write(f"Movie: {movie}")
         st.write(f"Show Time: {show_time}")
         st.write(f"Tickets: {tickets}")
+
         st.write(f"Total Paid: ₹{total_price}")
