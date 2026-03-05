@@ -21,7 +21,7 @@ import streamlit as st
 st.title("🎬 Movie Ticket Booking System")
 
 # Movie selection
-movies = ["Avengers", "Jawan", "Inception", "Interstellar"]
+movies = ["Avengers", "Jawan", "Inception", "Interstellar", "conjuring", "spiderman"]
 movie = st.selectbox("Select Movie", movies)
 
 # Show time
@@ -145,5 +145,6 @@ if menu == "📊 Admin Dashboard":
             st.success("All bookings cleared!")
 
  
+
 
 
