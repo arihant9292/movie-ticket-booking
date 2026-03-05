@@ -31,7 +31,7 @@ if menu == "🎟 Book Ticket":
     col1, col2 = st.columns(2)
 
     with col1:
-        movie = st.selectbox("Select Movie", ["Pushpa 2", "Animal", "Jawan", "RRR"])
+        movie = st.selectbox("Select Movie", ["Pushpa 2", "Animal", "Jawan", "RRR", "Conjuring", "Nun2"])
         date = st.date_input("Select Date")
         time = st.selectbox("Select Show Time", 
                             ["10:00 AM", "2:00 PM", "6:00 PM", "9:00 PM"])
@@ -133,3 +133,4 @@ if menu == "📊 Admin Dashboard":
         if st.button("Reset All Bookings"):
             st.session_state.bookings = []
             st.success("All bookings cleared!")
+
